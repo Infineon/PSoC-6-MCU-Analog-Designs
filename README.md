@@ -45,6 +45,17 @@ To use the code examples in this repository, please download and install
 #### 1. CE218129 – PSoC 6 MCU Wakeup from Hibernate Using a Low-Power Comparator
 This code example demonstrates how to set the Component options for the LPComp internal reference voltage and how to set the external input from a GPIO using the LPComp driver.
 The code example uses one GPIO input to compare the input voltage and internal reference voltage to wake the PSoC 6 MCU from Hibernate mode. The LED indicates the current power mode.
+#### 2. CE218472 - PSoC 6 MCU: Comparing External Voltages Using a Low-Power Comparator
+This example demonstrates the voltage comparison functionality using the LPComp Component in PSoC 6 MCU.
+#### 3. CE220923 - PSoC 6 MCU VDAC Sawtooth Wave Generator
+This example generates a sawtooth wave by incrementing through all 4096 unique codes of the Voltage DAC (12-bit)
+Component using an interrupt service routine. Both the PSoC Creator™ Voltage DAC (12-bit) Component and underlying lowlevel
+Peripheral Driver Library (PDL) Continuous Time DAC (CTDAC) function calls are shown.
+#### 4. CE220924 - PSoC 6 MCU VDAC Sine Wave Generator Using DMA
+This example generates a sine wave using the Voltage DAC (12-bit) and DMA Components. The DMA Component transfers
+data from a lookup table to the DAC value register without any CPU intervention. Other than function calls to initialize and
+enable the hardware, there are no other software operations. Both the PSoC Creator™ Voltage DAC (12-bit) Component and
+underlying low-level Continuous Time DAC (CTDAC) PDL function calls are shown.
 
 ## References
 #### 1. PSoC 6 MCU
