@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE218472_LPComp_Two_Ext" WorkspaceName="CE218472.cywrk">
+  <Version>1.0</Version>
+  <Keyword>LPComp</Keyword>
+  <Keyword>LPComp_PDL</Keyword>
+  <Keyword>Compare an external input and the internal reference voltage</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates the functionality of the voltage comparison between an external input and the internal reference voltage using the LPComp Component in PSoC6. </Description>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE218472.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
