@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE220924_VDAC_Sine_DMA" WorkspaceName="CE220924.cywrk">
+  <Version>1.0</Version>
+  <Keyword>VDAC12</Keyword>                     <!-- the Component default name -->
+  <Keyword>Voltage DAC (12-bit)</Keyword>       <!-- the Component catalog name, if different -->
+  <Keyword>DMA_PDL</Keyword>                    <!-- the Component default name -->
+  <Keyword>DMA</Keyword>                        <!-- the Component catalog name, if different -->
+  <Keyword>Sine wave generator</Keyword>        <!-- the application for the Component -->
+  <Keyword>CTDAC</Keyword>                      <!-- IP block and PDL driver name -->
+  <Keyword>VDAC</Keyword>
+  <Keyword>DAC</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates how to use the Voltage DAC (12-bit) component and CTDAC PDL as a sine wave generator using DMA transfers from a look up table in a PSoC 6 MCU. </Description>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220924_VDAC_Sine_DMA.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
