@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE218129_Wakeup_from_Hib_LPComp" WorkspaceName="CE218129.cywrk">
+  <Version>1.20</Version>
+  <Keyword>LPComp</Keyword>
+  <Keyword>LPComp_PDL</Keyword>
+  <Keyword>Wake up from Hibernate using LPComp input</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates the functionality of the wake-up from the hibernate mode using the LPComp Component in PSoC.</Description>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <Document>CE218129_Wakeup_from_Hib_LPComp.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
