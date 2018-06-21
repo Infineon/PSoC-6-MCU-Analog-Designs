@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE220925_VDAC_Sample_Hold" WorkspaceName="CE220925.cywrk">
+  <Version>1.0</Version>
+  <Keyword>VDAC12</Keyword>                     <!-- the Component default name -->
+  <Keyword>Voltage DAC (12-bit)</Keyword>       <!-- the Component catalog name, if different -->
+  <Keyword>VDAC</Keyword>
+  <Keyword>DAC</Keyword>
+  <Keyword>Comp_PDL</Keyword>                   <!-- the Component default name -->
+  <Keyword>Comparator</Keyword>                 <!-- the Component catalog name, if different -->
+  <Keyword>CTDAC</Keyword>                      <!-- IP block and PDL driver name -->
+  <Keyword>CTB</Keyword>                        <!-- IP block and PDL driver name -->
+  <Keyword>CTBm</Keyword>                       <!-- IP block and PDL driver name -->
+  <Keyword>OpAmp</Keyword>
+  <Keyword>Opamp</Keyword>
+  <Keyword>Sample and Hold</Keyword>
+  <Keyword>SH</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates how to sample and hold the VDAC output while in Deep Sleep mode using a PSoC 6 MCU</Description>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220925_VDAC_Sample_Hold.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>

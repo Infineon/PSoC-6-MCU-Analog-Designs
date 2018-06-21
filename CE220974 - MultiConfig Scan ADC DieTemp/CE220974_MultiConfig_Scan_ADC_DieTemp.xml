@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="CE220974_MultiConfig_Scan_ADC_DieTemp" WorkspaceName="CE220974.cywrk">
+  <Version>1.0</Version>
+  <Keyword>Scan_ADC</Keyword>                   <!-- the Component default name -->
+  <Keyword>Scanning SAR ADC</Keyword>           <!-- the Component catalog name, if different -->
+  <Keyword>MCWDT_PDL</Keyword>                  <!-- the Component default name -->
+  <Keyword>MCWDT</Keyword>                      <!-- the Component catalog name, if different -->
+  <Keyword>SAR</Keyword>                        <!-- IP block and PDL driver name -->
+  <Keyword>ADC</Keyword>
+  <Keyword>DieTemp</Keyword>
+  <Keyword>Temperature</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062</Keyword>
+  <Keyword Hidden="true">CY8CKIT-062-BLE</Keyword>
+  <Description>This example demonstrates a Scan_ADC with the DieTemp sensor using low-level PDL function calls in a PSoC 6 MCU.</Description>
+  <DeviceFilter>PSoC 61</DeviceFilter>
+  <DeviceFilter>PSoC 62</DeviceFilter>
+  <DeviceFilter>PSoC 63</DeviceFilter>
+  <Document>CE220974_MultiConfig_Scan_ADC_DieTemp.pdf</Document>
+  <MinToolVersion>4.2</MinToolVersion>
+</Project>
