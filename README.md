@@ -13,16 +13,15 @@ Cypress provides a wealth of data at [www.cypress.com](http://www.cypress.com/) 
 Feel free to explore through the code example source files and let us innovate together!
 
 # Navigating the Repository
-
 This repository provides examples that demonstrates how to develop PSoC 6 MCU based analog designs. These examples help you to use peripherals like ADC, DAC, Comparators etc.
 If you are new to developing projects with PSoC 6 MCU, we recommend you to refer the [PSoC 6 Getting Started GitHub](https://github.com/cypresssemiconductorco/PSoC-6-MCU-Getting-Started) page which can help you familiarize with device features and guides you to create a simple PSoC 6 design with PSoC Creator IDE. For other block specific designs please refer to the following GitHub repositories:
 
-#### 1. [Digital Designs]
+#### 1. [Digital Designs](https://github.com/cypresssemiconductorco/PSoC-6-MCU-Digital-Designs)
 #### 2. [BLE Connectivity Designs](https://github.com/cypresssemiconductorco/PSoC-6-MCU-BLE-Connectivity-Designs)
-#### 3. [Audio Designs]
-#### 4. [Device Related Designs]
-#### 5. [System-Level Designs]
-#### 6. [PSoC 6 Pioneer Kit Designs]
+#### 3. [Audio Designs](https://github.com/cypresssemiconductorco/PSoC-6-MCU-Audio-Designs)
+#### 4. [Device Related Designs](https://github.com/cypresssemiconductorco/PSoC-6-MCU-Device-Related-Design)
+#### 5. [System-Level Designs](https://github.com/cypresssemiconductorco/PSoC-6-MCU-System-Level-Designs)
+#### 6. [PSoC 6 Pioneer Kit Designs](https://github.com/cypresssemiconductorco/PSoC-6-MCU-Pioneer-Kits)
 
 You can use these block level examples to guide you through the development of a system-level design using PSoC 6 MCU. All the code examples in this repository comes with well documented design guidelines to help you understand the design and how to develop it. The code examples and their associated documentation are in the Code Example folder in the repository.
 
