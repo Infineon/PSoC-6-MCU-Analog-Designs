@@ -56,6 +56,20 @@ This example generates a sine wave using the Voltage DAC (12-bit) and DMA Compon
 data from a lookup table to the DAC value register without any CPU intervention. Other than function calls to initialize and
 enable the hardware, there are no other software operations. Both the PSoC Creator™ Voltage DAC (12-bit) Component and
 underlying low-level Continuous Time DAC (CTDAC) PDL function calls are shown.
+#### 5. CE220925 - PSoC 6 MCU VDAC Sample and Hold
+This example demonstrates how to maintain the VDAC output voltage using the sample and hold capacitor while in Deep
+Sleep mode. Both Component and low-level Peripheral Driver Library (PDL) function calls are demonstrated. When the
+voltage across the capacitor drifts below the internal 1.20-V bandgap voltage, the comparator wakes the device to re-sample
+the VDAC output. When the device wakes up, the red LED on the kit is toggled for a visual cue.
+#### 6. CE220927 - PSoC 6 MCU OpAmp and Comparator Example
+This example demonstrates a simple OpAmp gain stage and a Comparator using VDAC as a programmable reference. Both
+Component and low-level PDL function calls are shown to configure and use the OpAmp, Comparator, Comparator interrupt,
+VDAC, and internal analog routing.
+#### 7. CE220974 - PSoC 6 MCU Multi-Config Scan_ADC Example
+This example demonstrates a Scan_ADC with two conversion configurations implemented using direct PDL functions calls.
+The example selects between a fast free-running two-channel differential system and a firmware-triggered scan with averaging
+of the internal die temperature (DieTemp) sensor. The DieTemp sensor is scanned once per second using a watchdog timer.
+Results of all channel readings are transmitted over UART.
 
 ## References
 #### 1. PSoC 6 MCU
