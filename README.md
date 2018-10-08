@@ -41,7 +41,7 @@ To use the code examples in this repository, please download and install
 
 **Note** Please refer to the code example documentation for selecting the appropriate kit for testing the project
 
-## Code Example List
+## Code Examples List
 #### 1. CE218129 – PSoC 6 MCU Wakeup from Hibernate Using a Low-Power Comparator
 This code example demonstrates how to set the Component options for the LPComp internal reference voltage and how to set the external input from a GPIO using the LPComp driver.
 The code example uses one GPIO input to compare the input voltage and internal reference voltage to wake the PSoC 6 MCU from Hibernate mode. The LED indicates the current power mode.
